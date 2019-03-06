@@ -18,6 +18,7 @@ public class MovingThreads extends Thread{
 		while(c) {
 			r = mc.rigth(r);
 			r = mc.left(r);
+			
 			try {
 				sleep(50);
 			} catch (InterruptedException e) {
