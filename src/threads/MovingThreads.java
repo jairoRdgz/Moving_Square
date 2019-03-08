@@ -18,15 +18,12 @@ public class MovingThreads extends Thread{
 		while(c) {
 			r = mc.rigth(r);
 			r = mc.left(r);
-			
 			try {
-				sleep(50);
+				sleep(30);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			
-			
 		}
 		
 	}
